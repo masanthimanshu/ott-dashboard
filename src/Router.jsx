@@ -1,5 +1,6 @@
 import "./style.css";
 import "chart.js/auto";
+
 import { CssBaseline } from "@mui/material";
 import { CheckAuth } from "./auth/checkAuth";
 import { Routes, Route } from "react-router-dom";

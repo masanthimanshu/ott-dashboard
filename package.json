@@ -1,5 +1,5 @@
 {
-  "name": "react-firebase-mui-dashboard",
+  "name": "ott_dashboard",
   "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",

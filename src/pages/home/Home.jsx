@@ -1,8 +1,8 @@
-import { Grid, Box, Container, Typography } from "@mui/material";
-import chartOptions from "./data/chartOptions.json";
-import { Sidebar } from "../../components/Sidebar";
-import chartData from "./data/chartData.json";
 import { Line } from "react-chartjs-2";
+import chartData from "./data/chartData.json";
+import { Sidebar } from "../../components/Sidebar";
+import chartOptions from "./data/chartOptions.json";
+import { Grid, Box, Container, Typography } from "@mui/material";
 
 export const Home = () => {
   return (

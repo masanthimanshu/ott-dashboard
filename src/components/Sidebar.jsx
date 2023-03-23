@@ -21,7 +21,7 @@ export const Sidebar = ({ children }) => {
     <Box sx={{ display: "flex" }}>
       <AppBar position="fixed" sx={{ width: "calc(100% - 250px)" }}>
         <Toolbar>
-          <Typography sx={{ flexGrow: 1 }}>Company Name</Typography>
+          <Typography sx={{ flexGrow: 1 }}>OTT Dashboard</Typography>
           <Box display="flex">
             <Link
               to="/"
@@ -45,12 +45,11 @@ export const Sidebar = ({ children }) => {
         }}
       >
         <img
+          style={{ margin: "3rem", cursor: "pointer" }}
           onClick={() => navigate("/home")}
-          style={{ cursor: "pointer" }}
           src="/images/logo.png"
           alt="Logo"
         />
-        <br />
         <List>
           <FullListItem
             icon={<Home color="primary" />}
